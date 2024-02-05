@@ -7,7 +7,7 @@
 //#define DHTTYPE DHT22 // DHT 22 (AM2302), AM2321
 //#define DHTTYPE DHT21 // DHT 21 (AM2301)
 int sensorPin2 = A1;
-int sensorPin = A0; 
+int sensorPin = A0;
 int sensorPin3 = A2;
 SoftwareSerial espSerial(5, 6);
 DHT dht(DHTPIN, DHTTYPE);
